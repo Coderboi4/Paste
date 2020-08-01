@@ -1,0 +1,25 @@
+{
+  "name": "Paste",
+  "version": "1.0.0",
+  "description": "Pastebin clone.",
+  "main": "index.js",
+  "dependencies": {
+    "faunadb": "^2.14.2",
+    "netlify-lambda": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deathlyface/Paste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deathlyface/Paste/issues"
+  },
+  "homepage": "https://github.com/deathlyface/Paste#readme"
+}

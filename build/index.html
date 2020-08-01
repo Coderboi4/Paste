@@ -7,12 +7,13 @@
 </head>
 
 <body>
-    <h1>📝 Paste - Text Storage</h1>
+    <h1>&#x1f4dd; Paste - Text Storage</h1>
     <p>Free and open source Pastebin alternative.</p>
 
     <h2 id="create">Create a paste</h2>
-    <form action=".netlify/functions/createpaste" method="post">
-        <textarea name="paste"></textarea>
+    <form action=".netlify/functions/createpaste" method="get">
+        <input type="text" name="title" placeholder="Title">
+        <textarea name="paste" placeholder="Code"></textarea>
         <input type="submit" value="Paste!">
     </form>
 
@@ -22,7 +23,7 @@
         <li><a rel="noopener" target="_blank" href="https://fauna.com">FaunaDB</a></li>
         <li><a rel="noopener" target="_blank" href="https://watercss.kognise.dev/">kognise/water.css</a></li>
     </ul>
-    <footer>© 2020 <a rel="noopener" target="_blank" href="https://deathlyf.com">deathlyf.com</a> | <a>Privacy Policy</a> | <a rel="noopener" target="_blank" href="https://github.com/deathlyface/paste">GitHub</a></footer>
+    <footer>&copy; 2020 <a rel="noopener" target="_blank" href="https://deathlyf.com">deathlyf.com</a> | <a>Privacy Policy</a> | <a rel="noopener" target="_blank" href="https://github.com/deathlyface/paste">GitHub</a></footer>
 </body>
 
 </html>
