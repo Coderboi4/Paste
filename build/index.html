@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <title>Paste</title>
@@ -33,8 +33,10 @@
 
     <h2 id="create">Create a paste</h2>
     <form action=".netlify/functions/createpaste" method="get">
-        <input type="text" name="title" placeholder="Title">
-        <textarea name="paste" placeholder="Code"></textarea>
+        <label for="paste_title">Paste Title</label>
+        <input type="text" id="paste_title" name="title" placeholder="Title">
+        <label for="paste_text">Paste Text</label>
+        <textarea id="paste_text" name="paste" placeholder="Code"></textarea>
         <input type="submit" value="Paste!">
     </form>
 
