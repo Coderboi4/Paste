@@ -34,9 +34,9 @@
     <h2 id="create">Create a paste</h2>
     <form action=".netlify/functions/createpaste" method="get">
         <label for="paste_title">Paste Title</label>
-        <input type="text" id="paste_title" name="title" placeholder="Title">
+        <input type="text" id="paste_title" name="title" placeholder="Title" required>
         <label for="paste_text">Paste Text</label>
-        <textarea id="paste_text" name="paste" placeholder="Code"></textarea>
+        <textarea id="paste_text" name="paste" placeholder="Code" required></textarea>
         <input type="submit" value="Paste!">
     </form>
 
