@@ -1,5 +1,12 @@
 # Paste
- Pastebin clone.
+ ![Paste](https://github.com/deathlyface/Paste/blob/master/images/screenshot.png?raw=true)
  
- Sorry for bad code (URL is hardcoded).
+## Demo
+ [paste.deathlyf.com](https://paste.deathlyface.com)
  
+## Features
+- Simple
+- Fast
+- Free
+- Open source
+- No ads
