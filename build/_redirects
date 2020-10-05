@@ -1,2 +1,4 @@
-/p    /.netlify/functions/paste   200
-/r    /.netlify/functions/raw     200
+/p          /.netlify/functions/paste               200
+/r          /.netlify/functions/raw                 200
+/p/*        /.netlify/functions/paste?p=:splat      200
+/r/*        /.netlify/functions/raw?p=:splat        200
