@@ -1,8 +1,8 @@
 # Paste
- ![Paste](https://github.com/deathlyface/Paste/blob/master/images/screenshot.png?raw=true)
+ ![Paste](https://raw.githubusercontent.com/brian-the-dev/Paste/main/images/screenshot.png)
  
 ## Demo
- [paste.deathlyf.com](https://paste.deathlyface.com)
+ [paste.brianthe.dev](https://paste.brianthe.dev)
  
 ## Features
 - Simple
