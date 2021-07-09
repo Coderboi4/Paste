@@ -29,7 +29,7 @@ exports.handler = (event, context, callback) => {
             return callback(null, {
                 statusCode: 302,
                 headers: {
-                    Location: "https://paste.deathlyf.com/p?p=" + response.ref.id
+                    Location: "https://paste.brianthe.dev/p?p=" + response.ref.id
                 }
             })
         }).catch((error) => {
